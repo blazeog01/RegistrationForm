@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 0.1;
+    min-height: 100vh;
+    background: linear-gradient(135deg, mediumslateblue, midnightblue);
+    flex-direction: column;
+    margin: 20px;
+}
+
+.main{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    width: 800px;
+    height: 350px;
+    background: linear-gradient(145deg, mediumseagreen, mediumpurple);
+}
+
+.main h1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 3px;
+    border: solid black;
+    color: gray;
+    cursor: pointer;
+    background-color: white;
+    width: 30%;
+    height: 10%;
+    font-size: 20px;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.YS {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 50%;
+    float: right;
+}
+
+.SS{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 50%;
+    float: right;
+}

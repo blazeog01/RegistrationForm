@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1b1c1c;
+}
+
+.button-container {
+    background-color: #000000;
+    height: 150px;
+    font-family: arial, serif;
+    box-shadow: 0 5px 15px 0 #000000;
+}
+#button-wrapper {
+    text-align: center;
+    margin: auto;
+}
+button {
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+#exam-registration {
+    float: left;
+    margin-left: 45%;
+    width: 150px;
+}
+#logout {
+    float: right;
+    margin-right: 10px;
+}

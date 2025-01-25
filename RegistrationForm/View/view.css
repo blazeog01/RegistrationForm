@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: #2e2e2e;
+}
+
+table, thead, tbody, tr, th, td {
+    border: 3px solid black;
+    text-align: center;
+    font-family: arial, serif;
+    border-collapse: collapse;
+}
+.info-div, .info-table {
+    width: 50vw;
+    height: 25vh;
+    margin: auto;
+}
+th {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: arial, serif;
+}
+td {
+    font-weight: bold;
+    background-color: #ffffff;
+}
+.button-div {
+    display: inline-block;
+    width: 50%;
+}
+form {
+    display: inline-block;
+}
+button {
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
